@@ -63,15 +63,18 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+.contact {
+    color:#757575;
+}
 
 .menu:hover, 
 .contact:hover {
     color: #2196F3;
 }
-
-.contact {
-    color:#757575;
+.contact:focus {
+    color: #2196F3;
 }
+
 
 .tittle {
     background: #2F303A;
@@ -217,7 +220,7 @@ footer {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-     margin-top: 20px;
+    margin-top: 20px;
 }
 
 .contacts-list {
@@ -240,16 +243,20 @@ footer {
     color: #2196F3;
 }
 
-
 .contact-color {
     color: #fff;
 }
 
-.bottom-cont {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-}
 
+
+
+/* -------- PORTFOLIO CSS.--------*/
+
+
+
+.content {
+    padding: 94px 215px 94px 215px;
+}
 
 .tabs {
     justify-content: center;
@@ -257,6 +264,7 @@ footer {
     padding-bottom: 5px;
     
 }
+
 .tab {
     padding: 6px 22px;
     margin-right: 8px;
@@ -269,17 +277,15 @@ footer {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    
 }
+
 .tab:hover {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #fff;
     cursor: pointer;
 }
-.content {
-    padding: 94px 215px 94px 215px;
-}
+
 
 .gallery {
     flex-flow: row wrap;
